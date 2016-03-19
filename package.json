@@ -1,0 +1,31 @@
+{
+  "name": "file-meta-data-challege",
+  "version": "1.0.0",
+  "description": "challenge from fcc",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natac13/fcc-file-metadata.git"
+  },
+  "author": "Sean Campbell <sean.campbell13@gmail.com> (http://seancampbellnatac.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natac13/fcc-file-metadata/issues"
+  },
+  "homepage": "https://github.com/natac13/fcc-file-metadata#readme",
+  "dependencies": {
+    "express": "4.13.4",
+    "multer": "1.1.0"
+  },
+  "devDependencies": {
+    "expect": "1.15.2",
+    "mocha": "2.4.5",
+    "mock-fs": "3.8.0",
+    "nodemon": "1.9.1",
+    "supertest": "1.2.0"
+  }
+}
